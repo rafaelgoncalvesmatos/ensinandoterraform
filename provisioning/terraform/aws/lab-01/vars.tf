@@ -6,3 +6,6 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
+variable "quantidade" {
+  default = "3"
+}

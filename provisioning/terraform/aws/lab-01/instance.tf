@@ -3,6 +3,7 @@ resource "aws_instance" "default" {
   instance_type   = "${var.instance_type}"
   key_name        = "${aws_key_pair.default.key_name}"
   security_groups = ["${aws_security_group.default.name}"]
+  count           = "${var.quantidade}"
 }
 
 resource "aws_key_pair" "default" {
