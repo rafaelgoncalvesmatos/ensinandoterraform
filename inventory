@@ -1,0 +1,7 @@
+[ubuntu-aws]
+ec2-52-91-192-151.compute-1.amazonaws.com
+ec2-34-234-91-9.compute-1.amazonaws.com
+ec2-54-175-116-59.compute-1.amazonaws.com
+
+[ubuntu-aws:vars]
+ansible_user=ubuntu
